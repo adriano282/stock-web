@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+	<wb-module deploy-name="stock-web">
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/WebContent"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/WebContent/WEB-INF"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/imagens"/>
+        <dependent-module archiveName="stock-core-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/stock-core/stock-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stock-domain-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/stock-domain/stock-domain">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+		<property name="context-root" value="stock-web"/>
+		<property name="java-output-path" value="/stock-web/build/classes"/>
+	</wb-module>
+</project-modules>

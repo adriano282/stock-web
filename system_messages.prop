@@ -1,0 +1,64 @@
+
+# Mensagens referentes ao Customer
+
+customer.name.empty.error.message=Digite o nome do cliente.
+customer.document.empty.error.message=Digite o documento do cliente.
+customer.zipcode.empty.error.message=Digite o cep do cliente.
+customer.email.empty.error.message=Digite o email do cliente.
+customer.phone.empty.error.message=Digite o telefone do cliente.
+customer.type.empty.error.mesasge=Selecione o tipo de cliente.
+customer.email.already.registered=O email digitado já está cadastrado no sistema.
+customer.document.already.registered=O documento digitado já se encontra cadastrado.
+
+
+# Mensagens referentes do Produto
+
+product.name.empty.error.message=Digite o nome do produto.
+product.code.empty.error.message=Digite o código do produto.
+product.barcode.empty.error.message=Digite o código de barras do produto.
+product.unitmeasure.empty.error.message=Selecione um tipo de unidade do produto.
+product.quantity.empty.error.message=Digite a quantidade em estoque.
+product.price.empty.error.message=Digite o preço do produto.
+product.quantityminimum.empty.error.message=Digite a quantidade de estoque minimo do produto.
+product.maxquantity.empty.error.message=Digite a quantidade máxima de estoque do produto.
+product.quantityminimumsale.empty.error.message=Digite o conteúdo do produto. (Quantidade mínima de venda unica)
+
+
+# Mensagens referentes a Vendas
+
+order.product.empty.error.message=Selecione o produto para realizar a venda.
+order.quantity.empty.error.message=Digite a quantidade da venda.
+order.customer.empty.error.message=Selecione um usuário para realizar a venda do produto.
+
+
+# Mensagens referentes a Marca
+
+make.name.empty.error.message=Digite o nome da marca do produto.
+
+
+# Mensagens referentes ao Tempo de Cobertura
+
+timecover.daystoorder.empty.error.message=Digite a quantidade de dias para solicitar o produto.
+timecover.daystodelivery.empty.error.message=Digite a quantidade de dias para receber o produto.
+timecover.daystoconference.empty.error.message=Digite a quantidade de dias para realizar a conferência dos produtos entregues.
+timecover.daysmarginsecurity.empty.error.message=Digite a quantidade de dias de margem de segurança.
+timecover.totaldays.empty.error.message=Digite a quantidade total de dias de Tempo de Cobertura.
+
+
+# Mensagens referentes ao endereço
+
+address.street.empty.error.message=Digite o nome da rua.
+address.number.empty.error.message=Insira o número do endereço.
+address.zipCode.empty.error.message=Digite o cep da rua.
+address.quarter.empty.error.message=Digite o bairro.
+address.city.empty.error.message=Digite a cidade.
+address.state.empty.error.message=Digite o estado.
+
+
+# Mensagens referentes a usuário do sistema
+
+user.username.empty.error.message=Digite um email válido para o username.
+user.hashcodepassword.empty.error.message=Digite a senha do usuário.
+user.root.empty.error.message=Defina se o usuário é do tipo Roor ou não.
+user.ableemail.empty.error.message=Defina se o usuário receberá emails ou não.
+	
